@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tabpfn-common-utils
-  version: "0.2.4"
+  version: "0.2.5"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tabpfn_common_utils-${{ version }}.tar.gz
-  sha256: 762e01cfed5db85b0ad5ade7814610bdfb77c62455126ee6886377258248040e
+  sha256: f9fc1090c9c7a748d82e984627c31f7c434edd21d1705cc9e60cda91ad130d6c
 
 build:
   number: 0

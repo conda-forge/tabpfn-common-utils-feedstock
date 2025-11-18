@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tabpfn-common-utils
-  version: "0.2.9"
+  version: 0.2.10
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tabpfn_common_utils-${{ version }}.tar.gz
-  sha256: 2b835655a8a450fa324f4987e2985ebb4c176d40cf94a5387f5aa24420f39a11
+  sha256: 4be4979234bc16d72fd01a9b1008c6ee62408802bace4b99a908027520289091
 
 build:
   number: 0
@@ -29,10 +29,9 @@ requirements:
     - scikit-learn >=1.2.0
     - typing_extensions >=4.12,<5
     - posthog >=6.7,<7.dev0
-    - platformdirs >=4.4.0
+    - platformdirs >=4
     - filelock >=3.19.1
     - requests >=2.32.5
-
 tests:
   - python:
       imports:

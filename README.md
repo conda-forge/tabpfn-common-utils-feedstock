@@ -1,7 +1,7 @@
 About tabpfn-common-utils-feedstock
 ===================================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-fix-1767021493-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tabpfn-common-utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://priorlabs.ai/
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda-forge-fix-1767021493-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26599&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tabpfn-common-utils-feedstock?branchName=main">
       </a>
     </td>
   </tr>

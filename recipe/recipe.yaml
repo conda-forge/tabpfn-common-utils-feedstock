@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tabpfn-common-utils
-  version: "0.2.15"
+  version: 0.2.16
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tabpfn_common_utils-${{ version }}.tar.gz
-  sha256: 7aeca8b8d20a188635a7d67dcd1e7d8db2fb5bb2bfe4ed5f5643d9dabba67d45
+  sha256: da419bacb3db9c4bc6b4762b398e067b68470608266ad9dd754baaba834ef451
 
 build:
   number: 0
@@ -34,6 +34,7 @@ requirements:
     - filelock >=3.19.1
     - requests >=2.32.5
     - ruff >=0.11.6
+    - nvidia-ml-py >=13.590.48
 tests:
   - python:
       imports:
